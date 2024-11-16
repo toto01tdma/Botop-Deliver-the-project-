@@ -1,0 +1,73 @@
+Version V.0.4
+
+Updated-date:  02-september-2021 
+
+
+ Updates :-
+
+1) Some Html pages are updated.
+
+2) UI issues fixed.
+
+3) Icon-text menu is not working properly so you have to add sidemenu2.js in plugins.
+
+4) Updated calendar and fullcalendar plugin.
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	   
+Note:-If you are using scss files then please  run gulp  command  as directed in documentation.if you need to know more about gulp go through gulp tutorials. 
+ 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+1) Some Html pages are updated
+
+************************************************************************************
+
+   	-> Please Update html pages mentioned below in all versions :-
+
+		1.calendar2.html, 
+		2.counters.html, 
+		3.profile.html, 
+		4.shop-description.html, 
+		5.email.html, 
+		6.alerts.html, 
+		7.widgets.html, 
+		8.carousel.html,
+		9.cards.html 
+
+************************************************************************************
+
+2) UI issues fixed
+
+************************************************************************************
+
+	-> Replace complete assets folder
+			
+************************************************************************************
+ 
+3) Icon-text menu is not working properly so you have to add sidemenu2.js in plugins
+
+************************************************************************************
+
+	-> Add sidemenu2.js in plugins i.e, (Rootpath :- assets\plugins\sidemenu\sidemenu2.js)
+
+************************************************************************************
+
+4) Updated calendar and fullcalendar plugin 
+
+************************************************************************************
+
+a) Step-1 :-
+
+	-> Update calendar plugin in plugins folder (Rootpath :- assets\plugins\calendar)
+
+b) Step-2 :-
+
+	-> Update fullcalendar plugin in plugins folder (Rootpath :- assets\plugins\fullcalendar)
+
+
+
+
+
+

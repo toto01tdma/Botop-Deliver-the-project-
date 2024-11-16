@@ -1,0 +1,2 @@
+logo และ logo-1 จะใช้ในธีมมืดหรือ Dark mode
+logo-2 และ logo-3 จะใช้ในธีมปกติหรือ Light mode

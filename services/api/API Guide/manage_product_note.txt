@@ -1,0 +1,56 @@
+อ่านข้อมูลสินค้า
+string 	action = "read_products"
+string 	pd_id (ถ้าต้องการค้นหาสินค้าเพียงตัวเดียว (หรือ ไม่ส่งมาก็ได้)) (ถ้าส่ง pd_id ก็ไม่ควรส่ง cate_id)
+string 	cate_id (ถ้าต้องการค้นหาสินค้าตามหมวดหมู่สินค้า (หรือ ไม่ส่งมาก็ได้)) (ถ้าส่ง cate_id ก็ไม่ควรส่ง pd_id)
+int 	page = 1...n (ถ้าส่ง page ก็ไม่ควรส่ง limit)
+int	limit = 1..n (ถ้าส่ง limit ก็ไม่ควรส่ง page)
+stirng 	keyword = ""
+
+อ่านข้อมูลสินค้าโดยใช้ระบบแนะนำ (โดยใช้เทคนิค Cosine similarity)
+string 	action = "read_product_for_recommendation_system_cosine_similarity"
+int 	page = 1...n
+string	query_for_product_recommend (ถ้าต้องการดึงเฉพาะสินค้าที่แนะนำ (หรือ ไม่ส่งมาก็ได้))
+
+จัดการ (เพิ่ม/แก้ไข) ข้อมูลสินค้า
+string	action = "save_product"
+string	pd_id (ถ้าต้องการเพิ่มข้อมูลให้ส่งเป็น = "", ถ้าต้องการแก้ไขใส่ส่งเป็น = "(รหัสสินค้า)")
+string	pd_detail
+string	pd_name
+double	pd_price
+int	pd_stock
+double	pd_freight
+string	pd_payment_period
+string	ctgr_id
+
+ลบสินค้า
+string 	action = "delete_product"
+string	pd_id
+
+อ่านรูปสินค้า
+string	action = "read_product_files"
+string	pd_id
+
+เพิ่มรูปสินค้า
+string 	action = "create_product_file"
+string	pd_id	
+array	pd_image
+
+แก้ไขรูปสินค้า
+string 	action = "update_product_file"
+string	pd_id	
+string	pd_img_id
+array	pd_image
+
+ลบรูปสินค้า
+string 	action = "delete_product_file"
+string	pd_id	
+string	pd_img_id
+
+เปลี่ยนรูปหน้าปกสินค้า
+string 	action = "change_selected_cover_image"
+string	pd_id	
+string	pd_img_id
+
+อัพเดตสถานะถูกใจสินค้า
+string 	action = "set_like_product"
+string	pd_id

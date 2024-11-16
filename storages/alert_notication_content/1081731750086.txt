@@ -1,0 +1,45 @@
+<div style="max-width: 500px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
+                        <div style="text-align: center; margin-bottom: 20px;">
+                            <img src="http://www.samphraonightrun.net/botop/assets/img/brand/logo.PNG" alt="โลโก้ของแบรนด์" style="max-width: 75%;">
+                        </div>
+                        <div style="font-size: 24px; font-weight: bold; margin-bottom: 10px; color:#0d0c22; text-align:center;">ใบสั่งซื้อ</div>
+                        <div style="margin-bottom: 20px;">
+                            <p><strong>ชื่อลูกค้า:</strong> จุ๊บ แจง</p>
+                            <p><strong>วันที่สั่งซื้อ:</strong> 16 November 2024</p>
+                        </div>
+                        <table style="border-collapse: collapse; width: 100%;">
+                            <thead>
+                                <tr>
+                                    <th style="border: 1px solid #ccc; padding: 8px; text-align: left; background-color: #FFF7E4;">#</th>
+                                    <th style="border: 1px solid #ccc; padding: 8px; text-align: left; background-color: #FFF7E4;">รายการสินค้า</th>
+                                    <th style="border: 1px solid #ccc; padding: 8px; text-align: left; background-color: #FFF7E4;">ราคา</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">1</td>
+                                    <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">เหล้าขาว</td>
+                                    <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">112.00</td>
+                                </tr>
+                    
+                                <tr>
+                                    <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">2</td>
+                                    <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">กระเป๋าจักสาน 1</td>
+                                    <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">159.00</td>
+                                </tr>
+                    
+                                <tr>
+                                    <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">3</td>
+                                    <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">ลูกโลก</td>
+                                    <td style="border: 1px solid #ccc; padding: 8px; text-align: left;">299.00</td>
+                                </tr>
+                    
+                            </tbody>
+                        </table>
+                        <div style="margin-top: 20px; text-align: right;">
+                            <p><strong>ยอดรวมราคาสินค้า:</strong> 1,551 บาท</p>
+                            <p><strong>ส่วนลด:</strong> 0 บาท</p>
+                            <p><strong>ค่าขนส่ง:</strong> 29 บาท</p>
+                            <p><strong>ยอดรวมสุทธิ:</strong> 1,580</p>
+                        </div>
+                    </div>

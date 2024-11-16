@@ -1,0 +1,37 @@
+Zanex Admin Template
+
+Version V.1
+
+Updated-date:  29-july-2021 
+ 
+ Updates :-
+
+		1)Html pages Updated 
+
+		2)UI Improved
+
+//////////////////////////////////
+
+1)Html pages Updated
+
+//////////////////////////////////
+
+   please  Update htmlpages (index.html, widgets.html, calendar2.html, counters.html, rating.html, dropdown.html, badge.html, email.html, pricing.html, wishlist.html ) in all versions
+
+  
+
+////////////////////////////////////////////////////////////////////
+
+2) UI Improved
+
+///////////////////////////////////////////////////////////////////
+
+   UI is improved  so replace the complete assets folder
+
+	   
+Note:-If you are using scss files then please  run gulp  command  as directed in documentation.if you need to know more about gulp go through gulp tutorials. 
+
+
+
+
+

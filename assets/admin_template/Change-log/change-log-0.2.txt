@@ -1,0 +1,233 @@
+Zanex Admin Template
+
+Version V.2
+
+Updated-date:  30-july-2021 
+ 
+ Updates :-
+
+		1)calendar2.html page is Updated 
+		
+		2)Button.html page is Updated 
+
+		3)UI Improved
+
+
+**********************************LTR************************************************************
+
+//////////////////////////////////
+
+1)calendar2.html is Updated
+
+//////////////////////////////////
+
+     please  Update htmlpage (calendar2.html ) in all versions
+	 
+	  and replace fullcalendar.js root------>(assets/js/fullcalendar.js)
+	  
+	  
+////////////////////////////////////////////////////////////////////
+
+ 2)Button.html page is Updated
+
+///////////////////////////////////////////////////////////////////
+
+  Add "btn-group" class at particular div in Button.html page as shown as below and "img-1"
+  
+  step:1:-
+  
+		  Before:-
+		  
+				<div class="btn-list">
+					<div class="dropdown">   ------------------->(add here)
+						<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+							<i class="fe fe-calendar"></i>
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+						</div>
+					</div>
+					<div class="dropdown"> ------------------->(add here)
+						<button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">
+							<i class="fe fe-calendar me-2"></i>Show calendar
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+						</div>
+					</div>
+					<div class="dropdown"> ------------------->(add here)
+						<button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
+							Show calendar
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+						</div>
+					</div>
+				</div>
+
+
+		  After:-
+		  
+				<div class="btn-list">
+					<div class="dropdown  btn-group">  ------------------->(add here)
+						<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+							<i class="fe fe-calendar"></i>
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+						</div>
+					</div>
+					<div class="dropdown btn-group"> ------------------->(add here)
+						<button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">
+							<i class="fe fe-calendar me-2"></i>Show calendar
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+						</div>
+					</div>
+					<div class="dropdown btn-group"> ------------------->(add here)
+						<button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
+							Show calendar
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+						</div>
+					</div>
+				</div>
+				
+
+
+////////////////////////////////////////////////////////////////////
+
+3) UI Improved
+
+///////////////////////////////////////////////////////////////////
+
+   improved the UI so replace the below folders:-
+
+		css     root------>(assets/css)
+
+		scss    root------>(assets/scss)
+
+	   plugins   root------>(assets/plugins)
+
+	   
+Note:-If you are using scss files then please  run gulp  command  as directed in documentation.if you need to know more about gulp go through gulp tutorials. 
+
+
+
+******************************************RTL************************************************************
+
+//////////////////////////////////
+
+1)Html pages Updated
+
+//////////////////////////////////
+
+     please  Update htmlpage (calendar2.html ) in all versions
+	 
+	   and replace fullcalendar.js root------>(assets/js/fullcalendar.js)
+
+
+////////////////////////////////////////////////////////////////////
+
+2) 2)Button.html page is Updated
+
+///////////////////////////////////////////////////////////////////
+
+  Add "btn-group" class at particular div in Button.html page as shown as below and "img-1"
+  
+  step:1:-
+  
+		  Before:-
+		  
+				<div class="btn-list">
+					<div class="dropdown">   ------------------->(add here)
+						<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+							<i class="fe fe-calendar"></i>
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+						</div>
+					</div>
+					<div class="dropdown"> ------------------->(add here)
+						<button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">
+							<i class="fe fe-calendar me-2"></i>Show calendar
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+						</div>
+					</div>
+					<div class="dropdown"> ------------------->(add here)
+						<button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
+							Show calendar
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+						</div>
+					</div>
+				</div>
+
+
+		  After:-
+		  
+				<div class="btn-list">
+					<div class="dropdown  btn-group">  ------------------->(add here)
+						<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+							<i class="fe fe-calendar"></i>
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+						</div>
+					</div>
+					<div class="dropdown btn-group"> ------------------->(add here)
+						<button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">
+							<i class="fe fe-calendar me-2"></i>Show calendar
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+						</div>
+					</div>
+					<div class="dropdown btn-group"> ------------------->(add here)
+						<button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
+							Show calendar
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+							<a class="dropdown-item" href="javascript:void(0)">Dropdown link</a>
+						</div>
+					</div>
+				</div>
+				
+
+////////////////////////////////////////////////////////////////////
+
+3) UI Improved
+
+///////////////////////////////////////////////////////////////////
+
+   improved the UI so replace the below folders:-
+
+		css-rtl  root------>(assets/css-rtl)
+
+	    scss-rtl  root------>(assets/scss-rtl)
+
+		plugins  root------>(assets/plugins)
+
+	   
+Note:-If you are using scss files then please  run gulp  command  as directed in documentation.if you need to know more about gulp go through gulp tutorials. 
+
+
+
+

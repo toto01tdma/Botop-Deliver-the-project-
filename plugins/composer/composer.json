@@ -1,0 +1,21 @@
+{
+    "require": {
+        "endroid/qrcode": "^4.4",
+        "phpmailer/phpmailer": "^6.6",
+        "picqer/php-barcode-generator": "^2.2",
+        "mpdf/mpdf": "^8.1",
+        "kreait/firebase-php": "^7.2.1",
+        "phpoffice/phpspreadsheet": "^1.28",
+        "google/apiclient": "^2.12.1",
+        "google/cloud-bigquery": "^1.25",
+        "google/cloud": "^0.208.0",
+        "google/cloud-translate": "*",
+        "google/cloud-speech": "*",
+        "spatie/pdf-to-image": "^2.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

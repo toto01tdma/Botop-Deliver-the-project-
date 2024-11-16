@@ -1,0 +1,37 @@
+Zanex Admin Template
+
+Version V.3
+
+Updated-date:  06-August-2021 
+ 
+ Updates :-
+
+		1)Html pages Updated 
+
+		2)UI Improved
+
+//////////////////////////////////
+
+1)Html pages Updated
+
+//////////////////////////////////
+
+   please  Update htmlpages (accordion.html, alerts.html, breadcrumbs.html, buttons.html, cart.html, form-validation, forgot-password.html, lockscreen.html, , profile.html, register.html, wishlist.html ) in all versions
+
+  
+
+////////////////////////////////////////////////////////////////////
+
+2) UI Improved
+
+///////////////////////////////////////////////////////////////////
+
+   UI is improved  so replace the complete assets folder
+
+	   
+Note:-If you are using scss files then please  run gulp  command  as directed in documentation.if you need to know more about gulp go through gulp tutorials. 
+
+
+
+
+
